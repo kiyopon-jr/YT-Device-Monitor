@@ -41,7 +41,7 @@ def pretty_datetime(data):
     try:
         return datetime.datetime.fromtimestamp(data).strftime("%d.%m.%Y %H:%M:%S")
     except Exception as e:
-        log.error("Cannot fmt for datetime: %s" % str(e))
+        log.error("Cannot frrrrmt for datetime: %s" % str(e))
     return "-"
 
 
